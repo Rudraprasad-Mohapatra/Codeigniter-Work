@@ -52,5 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Welcome';
 $route['about'] = 'Welcome/about';
 $route['service'] = 'Welcome/service';
+$route['contact-us'] = 'Welcome/contact';
+$route['fileupload'] = 'Welcome/fileupload';
+$route['multiplefileupload'] = 'Welcome/multiplefileupload';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
